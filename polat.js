@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const myid = [''] // id xot da bne 
+const myid = ['806298836569686057'] // id xot da bne 
 const polat = new Discord.Client();
 const polat2 = new Discord.Client();
 const polat3 = new Discord.Client();
@@ -12,7 +12,7 @@ const polat6 = new Discord.Client();
 
 
 polat.on("ready", () => {
-  var join = polat.channels.get(""); /// id voice
+  var join = polat.channels.get("https://discord.com/channels/959163628446187580/959163629645750309"); /// id voice
   if (join) join.join();
 });
 ///////////////////
@@ -44,8 +44,8 @@ polat6.on("ready", () => {
 
 //////// playing or dnd  streaming ////////
 
-polat.on("ready", () => {
-  console.log(`Online In Servers`);
+polat.on("ready", (=r) => {
+  console.log(`https://discord.gg/8RbQFfhMj7`);
   let statuses = [`polat bot`];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
@@ -128,7 +128,7 @@ polat6.on("ready", () => {
 
 ////// spam krdn ba acc
 
-polat.on('message', message => {
+polat.on('raminup', message => {
 if (message.content === 'owo') {
       let count = 0;
       let ecount = 0;
@@ -221,7 +221,7 @@ if (message.content === 'owo') {
 });
 
 
-polat.login("");
+polat.login("ODA2Mjk4ODM2NTY5Njg2MDU3.GLqrME.1dlWJv5e22GUqTpsreI5BWA_pX__pymupmxUwQ");
 polat2.login("");
 polat3.login("");
 polat4.login("");
